@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-image: url("./asset/images/30-Trendy-Neon-Color-Palettes_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 753px;
+}
+
+
+
+
