@@ -1,4 +1,5 @@
 import './App.css';
+import 'animate.css'
 import { Routes, Route } from 'react-router-dom';
 import Logo from "./pages/home/component/logo";
 import SignUp from "./pages/sign_up/component/signUp";

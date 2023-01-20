@@ -1,0 +1,23 @@
+.div_one{
+    width: 1533px;
+    height: 50px;
+    background-color: #FFFFFF;
+}
+.div_two{
+    width: 63px;
+    height: 703px;
+    background-color: #FFFFFF;
+}
+.div_three{
+    width: 63px;
+    height: 703px;
+    background-color: #FFFFFF;
+    margin-left: 1470px;
+    margin-top: -703px;
+}
+.icon{
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 1360px;
+}
+
