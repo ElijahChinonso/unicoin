@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/form.css'
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Form () {
     const [firstName, setFirstName] = useState("")
@@ -54,10 +55,15 @@ export default function Form () {
                            required
                     />
 
-                    <button className={'signUp'} type={"submit"}>Sign Up</button>
+
+                    <button className={'signUp'} type={"submit"}>
+                        <Link to={'/logIn'} style={{textDecoration: 'none', color: 'gold'}}>Sign Up</Link>
+                    </button>
                 </form>
 
-                <h4 className={'signUp_alt'}>already have an account?<u id={'lg'}>Login</u></h4>
+                <h4 className={'signUp_alt'}>already have an account?
+                    <Link to={'/logIn'} id={'lg'}>Login</Link>
+                </h4>
             </div>
         </div>
     )

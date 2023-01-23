@@ -1,4 +1,4 @@
-.welcomeText_form_div {
+.welcomeBackText_form_div {
     width: 600px;
     height: 500px;
     /*background-color: black;*/
@@ -6,10 +6,10 @@
     margin-top: -850px;
 }
 
-.welcomeToUnicoin{
+.welcomeBack{
     width: 445px;
     height: 48px;
-    margin-left: 106px;
+    margin-left: 160px;
     margin-top: 190px;
 
     font-family: 'Inter', sans-serif;
@@ -24,10 +24,10 @@
 
 }
 
-.signUpToGetStarted{
+.logInToHaveAccess{
     width: 167px;
     height: 18px;
-    margin-left: 235px;
+    margin-left: 240px;
     margin-top: 19px;
 
     font-family: 'Inter', sans-serif;
@@ -41,9 +41,9 @@
     color: #F8D149;
 }
 
-.form_div{
+.formDivL{
     width: 400px;
-    height: 470px;
+    height: 480px;
     margin-left: 120px;
     margin-top: 40px;
 
@@ -52,15 +52,15 @@
     border-radius: 10px;
 }
 
-.form{
+.formL{
     display: grid;
 }
 
-.label {
+.label_login{
     width: 215px;
     height: 37px;
     margin-left: 15px;
-    margin-top: 13px;
+    padding-top: 43px;
 
     font-family: 'Inter',sans-serif;
     font-style: normal;
@@ -73,11 +73,11 @@
     color: #0F0BED;
 
 }
-.input{
+.input_L{
     width: 369px;
     height: 40px;
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: 25px;
     padding: 5px;
     letter-spacing: 2px;
 
@@ -86,33 +86,11 @@
     border: none;
 }
 
-.signUp{
-    width: 145px;
-    height: 30px;
-    margin-left: 120px;
-    margin-top: 25px;
-
-    background: #1D0202;
-    border-radius: 5px;
-
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    padding-left: 43px;
-
-    /*color: #F8D149;*/
-
-}
-
-.signUp_alt{
+.forgot_password{
     width: 207px;
     height: 16px;
-    margin-left: 95px;
-    margin-top: 10px;
+    margin-left: 235px;
+    margin-top: 20px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -125,9 +103,45 @@
     align-items: center;
 
     color: #1D0202;
+}
+
+.logIn{
+    width: 145px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 35px;
+
+    background: #1D0202;
+    border-radius: 5px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 53px;
+
+    color: #F8D149;
 
 }
 
-#lg{
-    color: #0F0BED;
+.logIn_alt{
+    width: 207px;
+    height: 16px;
+    margin-left: 17px;
+    margin-top: 25px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #1D0202;
 }
