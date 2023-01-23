@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function FormL () {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const [confirmPassword, setConfirmPassword] = useState("")
+    
     return(
         <div className={'welcomeBackText_form_div'}>
             <div className={'welcomeBackText_div'}>
@@ -35,14 +35,7 @@ export default function FormL () {
                            required
                     />
 
-                    <label className={'label_login'}>Confirm password :<span style={{color: 'red'}}>*</span></label>
-                    <input className={'input_L'}
-                           value={confirmPassword}
-                           onChange={(e => setConfirmPassword(e.target.value))}
-                           type={'password'}
-                           name={'password'}
-                           required
-                    />
+                    
 
                     <h4 className={'forgot_password'}>Forgot password? <u id={'lg'}>Reset</u></h4>
 

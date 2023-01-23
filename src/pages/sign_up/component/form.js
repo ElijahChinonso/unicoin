@@ -8,6 +8,7 @@ export default function Form () {
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const [confirmPassword, setConfirmPassword ] = useState("")
     return(
         <div className={'welcomeText_form_div'}>
 
@@ -54,7 +55,14 @@ export default function Form () {
                            name={'password'}
                            required
                     />
-
+                    <label className={'label_login'}>Confirm password :<span style={{color: 'red'}}>*</span></label>
+                    <input className={'input_L'}
+                           value={confirmPassword}
+                           onChange={(e => setConfirmPassword(e.target.value))}
+                           type={'password'}
+                           name={'password'}
+                           required
+                    />
 
                     <button className={'signUp'} type={"submit"}>
                         <Link to={'/logIn'} style={{textDecoration: 'none', color: 'gold'}}>Sign Up</Link>
