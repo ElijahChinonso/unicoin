@@ -17,7 +17,7 @@ export default function Form () {
             </div>
 
             <div className={'form_div'}>
-                <form className={'form'}>
+                <form className={'form'} action={'localhost:8084/api/v1/registration/register'} method={'POST'}>
                     <label className={'label'}>First name :<span style={{color: 'red'}}>*</span></label>
                     <input className={'input'}
                            value={firstName}
